@@ -1,0 +1,22 @@
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/no-mobile.css";
+
+/* Screens */
+@import "screens/login.css";
+
+@font-face {
+  src: url(../font/Neutra-Text_32171.ttf);
+  font-family: "nadal-academy";
+}
+
+body {
+  font-family: nadal-academy;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
