@@ -14,7 +14,7 @@
 .welcome-header {
   display: flex;
   position: relative;
-  margin: 150px 0px;
+  margin: 50px 0 20px 0;
   text-align: center;
   flex-direction: column;
   align-items: center;
@@ -24,7 +24,7 @@
 .welcome-header__title {
   color: whitesmoke;
   font-size: 40px;
-  margin: 30px;
+  margin: 0px 5px 30px 5px;
   text-shadow: 3px 3px var(--dark-blue);
 }
 
@@ -35,10 +35,62 @@
 }
 
 .welcome-header__icon img {
-  position: absolute;
-  left: 35%;
+  display: block;
+  left: 100%;
   top: -63%;
   width: 150px;
   height: 150px;
   opacity: 1;
 }
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px;
+}
+
+#login-form input {
+  border-radius: 15px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+
+#login-form input:not([type="submit"]) {
+  background-color: var(--dark-blue);
+  transition: background-color 1s ease-out;
+  color: var(--yellow);
+  
+}
+
+#login-form input:focus {
+  background-color: var(--yellow);
+  color: var(--dark-blue)
+  outline: 0;
+}
+
+#login-form input::placeholder {
+  color: var(--yellow);
+}
+
+#login-form input:focus::placeholder {
+  color: var(--dark-blue);
+}
+
+#login-form input[type="submit"] {
+  font-size: 20px;
+  background-color: var(--dark-blue);
+  color: var(--yellow);
+  padding: 20px;
+  box-shadow: 2px 2px var(--yellow);
+  transition: 1s ease-out;
+}
+
+#login-form input[type="submit"]:hover {
+  background-color: var(--yellow);
+  color: var(--dark-blue);
+  box-shadow: 5px 5px var(--dark-blue);
+}
+
