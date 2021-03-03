@@ -4,6 +4,8 @@
   z-index: 200;
   align-items: center;
   justify-content: center;
+
+  top: 0;
 }
 
 #no-mobile img {
@@ -14,7 +16,7 @@
 .no-mobile__background {
   top: 0;
   position: fixed;
-  background-image: url("../../img/no-mobile-bg3.jpg");
+  background-image: url("../../img/no-mobile-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -27,7 +29,7 @@
   display: flex;
   position: absolute;
   left: 3%;
-  bottom: 150px;
+  top: 300px;
 }
 .no-mobile__left-img span {
   color: black;
@@ -42,8 +44,8 @@
 .no-mobile__right-img {
   display: flex;
   position: absolute;
-  bottom: 150px;
-  right: 3%;
+  top: 300px;
+  right: 5%;
 }
 
 .no-mobile__right-img span {
@@ -58,8 +60,6 @@
 
 .no-mobile__right-img img {
   transform: rotateY(180deg);
-  top: 20%;
-  right: 5%;
 }
 
 .no-mobile__text {
@@ -70,6 +70,7 @@
   font-weight: 600;
   color: greenyellow;
   text-shadow: 3px 3px black;
+  bottom: 70%;
 }
 
 @media screen and (max-width: 645px) {
