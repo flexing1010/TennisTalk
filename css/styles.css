@@ -4,10 +4,14 @@
 /* Components */
 @import "components/status-bar.css";
 @import "components/no-mobile.css";
+@import "components/screen-header.css";
+@import "components/player-component.css";
+@import "components/nav-bar.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/players.css";
+@import "screens/selection.css";
 
 @font-face {
   src: url(../font/Neutra-Text_32171.ttf);

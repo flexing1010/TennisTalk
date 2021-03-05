@@ -1,0 +1,47 @@
+.player-info {
+  text-decoration: none;
+}
+
+.player-component {
+  justify-content: space-between;
+
+  border-radius: 15px;
+  margin-bottom: 10px;
+  background-color: #273f6d;
+}
+
+.player-component,
+.player-component__column:first-child {
+  align-items: center;
+  display: flex;
+}
+
+.player-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 40%;
+}
+
+.player-component__title {
+  font-weight: 600;
+  font-size: 23px;
+  color: whitesmoke;
+}
+
+.player-component__subtitle {
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.player-component__column:last-child {
+  margin-right: 10px;
+  align-items: flex-end;
+  display: flex;
+}
+
+.player-component__points {
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 5px;
+  color: white;
+}

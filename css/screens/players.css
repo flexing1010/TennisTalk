@@ -1,79 +1,11 @@
-@keyframes spin {
-  from {
-    transform: none;
-  }
-  to {
-    transform: rotateX(360deg);
-    visibility: hidden;
-  }
-}
-
-@keyframes faster {
-  from {
-    transform: none;
-  }
-  to {
-    transform: rotateX(360deg) scale(10);
-    visibility: hidden;
-  }
-}
-
-@keyframes broken {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-    visibility: hidden;
-  }
-}
-
-@keyframes hideloading {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-
-.loading-screen {
-  background-color: black;
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  top: 0;
-  z-index: 150;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  animation: hideloading 1s linear forwards;
-  animation-delay: 2.3s;
-}
-
-.loading-screen__ball {
-  animation: spin 2s ease-in;
-}
-
-.loading-screen__ball img {
-  width: 60px;
-  height: 60px;
-  animation: faster 0.2s linear 2s forwards;
-}
-
-.loading-screen__broken {
-  opacity: 0;
-  position: absolute;
-  z-index: 1;
-  animation: broken 1s forwards;
-  animation-delay: 2.2s;
-}
-
-.loading-screen__broken img {
-  height: 99vh;
-  width: 99vw;
+#players-display-link {
+  display: block;
+  border-radius: 15px;
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin: 10px 30px 30px 30px;
+  color: white;
+  font-weight: 600;
+  background-color: #009cdb;
 }
