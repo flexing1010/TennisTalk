@@ -1,0 +1,74 @@
+.screen-header__wta {
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+  background-color: var(--purple);
+  color: white;
+}
+
+.player-info__wta {
+  text-decoration: none;
+}
+
+.player-component__wta {
+  justify-content: space-between;
+
+  border-radius: 15px;
+  margin-bottom: 10px;
+  background-color: var(--purple);
+}
+
+.player-component__wta,
+.player-component__column__wta:first-child {
+  align-items: center;
+  display: flex;
+}
+
+.player-component__avatar__wta {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 3px;
+}
+
+.player-component__title__wta {
+  font-weight: 600;
+  font-size: 23px;
+  color: whitesmoke;
+}
+
+.player-component__subtitle__wta {
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 600;
+}
+
+.player-component__column__wta:last-child {
+  margin-right: 10px;
+  align-items: flex-end;
+  display: flex;
+}
+
+.player-component__column__wta:last-child i {
+  color: white;
+}
+
+.player-component__points__wta {
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 5px;
+  color: white;
+}
+
+.nav__wta {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--purple);
+  box-sizing: border-box;
+  padding: 20px 50px;
+  border-top: 1px solid black;
+}

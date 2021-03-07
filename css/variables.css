@@ -2,4 +2,14 @@
   --horizontal-space: 25px;
   --dark-blue: #013b70;
   --yellow: #ffec00;
+  --purple: #7814ff;
+}
+
+.ab {
+  background-color: black;
+  border-radius: 50%;
+}
+
+.abc {
+  background-color: black;
 }

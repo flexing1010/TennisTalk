@@ -12,6 +12,7 @@
 @import "screens/login.css";
 @import "screens/players.css";
 @import "screens/selection.css";
+@import "screens/players-screen__wta.css";
 
 @font-face {
   src: url(../font/Neutra-Text_32171.ttf);

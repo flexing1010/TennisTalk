@@ -30,13 +30,18 @@
 
 .player-component__subtitle {
   margin-top: 5px;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 600;
 }
 
 .player-component__column:last-child {
   margin-right: 10px;
   align-items: flex-end;
   display: flex;
+}
+
+.player-component__column:last-child i {
+  color: white;
 }
 
 .player-component__points {

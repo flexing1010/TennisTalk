@@ -90,7 +90,7 @@
 
 .tour-selection img {
   height: 40vh;
-  width: 90vw;
+  width: 90%;
   display: flex;
   border: 5px solid white;
   position: fixed;
@@ -98,21 +98,24 @@
 }
 
 .tour-selection__atp img {
+  background-color: var(--dark-blue);
+  border-radius: 50%;
   top: 5%;
 }
 
 .tour-selection__wta img {
+  border-radius: 50%;
   bottom: 5%;
 }
 
 .tour-selection__atp img:hover,
 .tour-selection__atp img:active {
-  border: 10px solid var(--dark-blue);
+  border: 10px solid white;
   transition: border 0.5s ease-in-out;
 }
 
 .tour-selection__wta img:hover,
 .tour-selection__wta img:hover {
-  border: 10px solid var(--dark-blue);
+  border: 10px solid white;
   transition: border 0.5s ease-in-out;
 }
