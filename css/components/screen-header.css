@@ -36,3 +36,33 @@ body {
 .screen-header__icons .fa-cog:hover {
   animation: rotatecog 1s linear infinite;
 }
+
+.screen-header__icons .fa-search:hover {
+  animation: heartBeat 1.5s ease-in-out infinite;
+}
+
+.screen-header__icons .fa-music:hover {
+  animation: tada 1s infinite;
+}
+
+.notification-dot {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  right: -4px;
+}
+
+.notification-dot__container {
+  position: relative;
+}
+
+.ellipsis-dot {
+  right: -4px;
+}
+.cog-dot {
+  right: -6px;
+  top: -6px;
+}

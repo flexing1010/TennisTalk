@@ -98,8 +98,6 @@
 }
 
 .tour-selection__atp img {
-  background-color: var(--dark-blue);
-  border-radius: 50%;
   top: 5%;
 }
 

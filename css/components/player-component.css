@@ -22,6 +22,11 @@
   border-radius: 40%;
 }
 
+.player-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+}
+
 .player-component__title {
   font-weight: 600;
   font-size: 23px;
@@ -38,10 +43,20 @@
   margin-right: 10px;
   align-items: flex-end;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .player-component__column:last-child i {
   color: white;
+}
+
+.player-component__time {
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 10px;
+  font-size: 16px;
+  display: block;
 }
 
 .player-component__points {

@@ -7,12 +7,18 @@
 @import "components/screen-header.css";
 @import "components/player-component.css";
 @import "components/nav-bar.css";
+@import "components/badge.css";
+@import "components/alt-screen-header.css";
+@import "components/icon-row.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/players.css";
 @import "screens/selection.css";
-@import "screens/players-screen__wta.css";
+@import "screens/players-wta.css";
+@import "screens/comment.css";
+@import "screens/find.css";
+@import "screens/more.css";
 
 @font-face {
   src: url(../font/Neutra-Text_32171.ttf);
@@ -25,4 +31,9 @@ body {
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+
+#find-body {
+  height: 100%;
+  overflow-y: auto;
 }

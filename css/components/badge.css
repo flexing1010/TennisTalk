@@ -1,0 +1,15 @@
+.badge {
+  background-color: tomato;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+.badge-alarm {
+  animation: heartBeat 1s ease-in-out infinite;
+}
