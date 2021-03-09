@@ -3,15 +3,7 @@
   height: 100vh;
 }
 
-#comment-screen .alt-header {
-  position: fixed;
-  width: 100%;
-  box-sizing: border-box;
-  top: 5px;
-  background-color: #273f6d;
-}
-
-@keyframes fadein {
+#comment-screen @keyframes fadein {
   from {
     transform: translateY(30px);
     opacity: 0;

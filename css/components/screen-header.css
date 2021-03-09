@@ -23,6 +23,9 @@ body {
 .screen-header__icons--cog {
   position: relative;
 }
+.notification-dot__container .fa-cog {
+  color: white;
+}
 
 @keyframes rotatecog {
   from {

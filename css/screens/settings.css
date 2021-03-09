@@ -1,0 +1,31 @@
+#settings-screen {
+  background-color: var(--dark-blue);
+}
+
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting:first-child {
+  margin-top: 70px;
+}
+
+.settings__setting i {
+  color: white;
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.settings__setting-column {
+  color: white;
+}
+
+.version {
+  opacity: 0.5;
+}
