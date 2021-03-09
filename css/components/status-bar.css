@@ -23,6 +23,7 @@
 }
 
 .status-bar__column:first-child img {
+  animation: bounce 2s ease-in-out infinite;
   width: 14px;
   height: 14px;
 }

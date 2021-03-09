@@ -1,20 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
-<style>
-.ab {
-  width: 100%;
-  height: 50%; 
-}
-
-.abc {
-  width: 100%;
-  height: 50%;
-}
-
-</style>
-
     <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
@@ -22,13 +8,224 @@
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Tennis Talk</title>
+    <title>ATP Players</title>
   </head>
 
   <body>
-    <img class="ab" src="img/atp-logo-neg.svg" >
-<img class="abc" src="../wta-logo.svg" alt="">
+     
+    <header class="screen-header">
+        <h1 class="screen-header__title">Players</h1>
+        <div class="screen-header__icons">
+          <span><i class="fas fa-search fa-lg"></i></span>
+          <span><i class="fas fa-music fa-lg"></i></span>
+          <span class="notification-dot__container">
+            <span class="notification-dot cog-dot"></span>
+            <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
+          </span>
+        </div>
+      </header>
+  
+    <a id="players-display-link">
+        <i class="fas fa-info-circle"></i> Rankings | Singles | ATP Tour
+        <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+    
+<div class="status-notification">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>6:07</span>
+        <img src="img/tennis-ball.svg" />
+      </div>
+      <div class="status-bar__column">
+        <span></span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-plane airplane" fa-lg></i>
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+      </div>
+    </div>
+    <div class="notification-screen">
+        <div class="notification__column">
+            <span>Tue, Mar 9</span>
+            <i class="fas fa-cog fa-lg"></i> 
+        </div>
+        
+        <div class="notification__column">
+            <div class="icon-row">
+                <div class="icon-row__icon">
+                  <i class="fas fa-qrcode"></i><span>QR Code</span>
+                </div>
+                <div class="icon-row__icon">
+                  <i class="fas fa-user-plus"></i><span>Add by Player</span>
+                </div>
+                <div class="icon-row__icon">
+                  <i class="far fa-calendar-alt"></i><span>Add by Match</span>
+                </div>
+                <div class="icon-row__icon">
+                  <i class="far fa-envelope"></i><span>Invite</span>
+                </div>
+              
+        </div>
+        <div class="notification__column"></div>
+        <div class="notification__column"></div>
+      </div>
+    </div>
 
+</div>
+    <main class="main-screen">
+ 
+<div class="players_rankings">       
+ <a class="player-info" href="https://www.atptour.com/en/players/novak-djokovic/d643/overview" target="_blank">       
+<div class="player-component">
+    <div class="player-component__column">
+        <img src="img/atp/djokovic.png" class="player-component__avatar">
+        <div class="player-component__text">
+            <h4 class="player-component__title">#1 Novak Djokovic</h4>
+            <h6 class="player-component__subtitle">Serbia</h6>
+        </div>
+    </div>
+    <div class="player-component__column">
+        <span class="player-component__points">12,030 pts.</span>
+        
+    </div>
+</div>
+</a>
+
+<a class="player-info" href="https://www.atptour.com/en/players/rafael-nadal/n409/overview" target="_blank">       
+    <div class="player-component">
+        <div class="player-component__column">
+            <img src="img/atp/nadal.png" class="player-component__avatar">
+            <div class="player-component__text">
+                <h4 class="player-component__title">#2 Rafael Nadal</h4>
+                <h6 class="player-component__subtitle">Spain</h6>
+            </div>
+        </div>
+        <div class="player-component__column">
+            <span class="player-component__points">9,850 pts.</span>
+            
+        </div>
+    </div>
+    </a>
+    
+    <a class="player-info" href="https://www.atptour.com/en/players/daniil-medvedev/mm58/overview" target="_blank">       
+        <div class="player-component">
+            <div class="player-component__column">
+                <img src="img/atp/medvedev.png" class="player-component__avatar">
+                <div class="player-component__text">
+                    <h4 class="player-component__title">#3 Daniil Medvedev</h4>
+                    <h6 class="player-component__subtitle">Russia</h6>
+                </div>
+            </div>
+            <div class="player-component__column">
+                <span class="player-component__points">9,735 pts.</span>
+                
+            </div>
+        </div>
+        </a>
+
+      <a class="player-info" href="https://www.atptour.com/en/players/dominic-thiem/tb69/overview" target="_blank">       
+        <div class="player-component">
+            <div class="player-component__column">
+                <img src="img/atp/thiem.png" class="player-component__avatar">
+                <div class="player-component__text">
+                    <h4 class="player-component__title">#4 Dominic Thiem</h4>
+                    <h6 class="player-component__subtitle">Austria</h6>
+                </div>
+            </div>
+            <div class="player-component__column">
+                <span class="player-component__points">9,125 pts.</span>
+                
+            </div>
+        </div>
+        </a>
+        
+        <a class="player-info" href="https://www.atptour.com/en/players/roger-federer/f324/overview" target="_blank">       
+            <div class="player-component">
+                <div class="player-component__column">
+                    <img src="img/atp/federer.png" class="player-component__avatar">
+                    <div class="player-component__text">
+                        <h4 class="player-component__title">#5 Roger Federer</h4>
+                        <h6 class="player-component__subtitle">Switzerland</h6>
+                    </div>
+                </div>
+                <div class="player-component__column">
+                    <span class="player-component__points">6,630 pts.</span>
+                    
+                </div>
+            </div>
+            </a>
+</div>
+
+<div class="players_favorites">
+    <div class="players__favorites-header">
+        <span>Favorite Players</span>
+        <i class="fas fa-chevron-up fa-xl"></i>
+      </div>
+
+    <a class="player-info" href="https://www.atptour.com/en/players/diego-schwartzman/sm37/overview" target="_blank">       
+        <div class="player-component">
+            <div class="player-component__column">
+                <img src="img/atp/schwartzman.png" class="player-component__avatar">
+                <div class="player-component__text">
+                    <h4 class="player-component__title">#9 Diego Schwartzman</h4>
+                    <h6 class="player-component__subtitle">Argentina</h6>
+                </div>
+            </div>
+            <div class="player-component__column">
+                <span class="player-component__points">3,480 pts.</span>
+                
+            </div>
+        </div>
+        </a>
+</div>
+    </main>
+
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a href="selection.html" class="nav__link">
+                    <i class="fas fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a href="comments.html" class="nav__link">
+                    <span class="nav__notification badge"> <i class="far fa-user fa-xs"></i></span>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a href="find.html" class="nav__link">
+                    <i class="fas fa-search fa-2x"></i>
+                 </a>
+            </li>
+            <li class="nav__btn">
+                <a href="more.html" class="nav__link">
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <div class="no-mobile__background"></div>
+      <div class="no-mobile__left-img">
+          <img src="img/tennis-player-serve.svg" />
+          <span>Let's start playing!</span>
+      </div>
+      <div class="no-mobile__text">
+          <p>Tennis Talk does not support this display size.</p>
+          <p>Please, reduce the display size to go back to the game!</p>
+      </div>
+      <div class="no-mobile__right-img">
+          <span>I can't hear you!!</span>
+          <img src="img/tennis-player.svg" />
+      </div>
+    </div>
+
+
+  
       <script
         src="https://kit.fontawesome.com/5a0db90eb2.js"
         crossorigin="anonymous"

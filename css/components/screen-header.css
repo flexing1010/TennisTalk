@@ -1,3 +1,12 @@
+@keyframes rotatecog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
 body {
   padding-top: 25px;
 }
@@ -27,15 +36,6 @@ body {
   color: white;
 }
 
-@keyframes rotatecog {
-  from {
-    transform: none;
-  }
-  to {
-    transform: rotateZ(360deg);
-  }
-}
-
 .screen-header__icons .fa-cog:hover {
   animation: rotatecog 1s linear infinite;
 }
@@ -62,9 +62,6 @@ body {
   position: relative;
 }
 
-.ellipsis-dot {
-  right: -4px;
-}
 .cog-dot {
   right: -6px;
   top: -6px;

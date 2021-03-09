@@ -1,9 +1,4 @@
-#comment-screen {
-  background-color: var(--dark-blue);
-  height: 100vh;
-}
-
-#comment-screen @keyframes fadein {
+@keyframes fadein {
   from {
     transform: translateY(30px);
     opacity: 0;
@@ -12,6 +7,33 @@
     transform: none;
     opacity: 1;
   }
+}
+
+@keyframes messagefadeinright {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes messagefadeinleft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+#comment-screen {
+  background-color: var(--dark-blue);
+  height: 100vh;
 }
 
 .main-chat {
@@ -47,28 +69,6 @@
 .message__author {
   margin-bottom: 5px;
   display: block;
-}
-
-@keyframes messagefadeinright {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-@keyframes messagefadeinleft {
-  from {
-    opacity: 0;
-    transform: translateX(-50px);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
 }
 
 .message__bubble {
