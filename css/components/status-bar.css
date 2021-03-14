@@ -38,8 +38,25 @@
   align-items: center;
 }
 
+@keyframes fly {
+  0%{
+    
+  }
+
+  60%{
+    transform: rotate(-90deg) translateX(-10px)
+    
+  }
+
+  100%{
+    transform: rotate(-90deg) translateX(50px);
+  }
+}
+
+
 .fa-plane {
   transform: rotate(-90deg);
+  animation: fly 2s infinite;
 }
 
 .status-bar__column .fa-battery-full {

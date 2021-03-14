@@ -9,6 +9,11 @@
   background-color: #273f6d;
 }
 
+.player-component:hover {
+  background-color: var(--dark-blue);
+}
+
+
 .player-component,
 .player-component__column:first-child {
   align-items: center;

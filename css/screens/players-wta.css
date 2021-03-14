@@ -21,6 +21,11 @@
   background-color: var(--purple);
 }
 
+.player-component__wta:hover {
+  background-color: rgba(120,20,255,.8);
+}
+
+
 .player-component__wta,
 .player-component__column__wta:first-child {
   align-items: center;

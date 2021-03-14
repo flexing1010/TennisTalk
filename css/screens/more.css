@@ -12,6 +12,7 @@
   margin-top: 50px;
   border-top: 1px solid black;
   padding-top: 40px;
+  
 }
 
 .more-suggestions__title {
@@ -56,4 +57,31 @@
 .more-suggestions__icon-text {
   font-weight: bolder;
   font-size: 15px;
+}
+
+
+@keyframes rolling {
+  0%{}
+  50% {
+    transform: translateX(460px) rotateZ(360deg);
+  }
+  90% {
+   
+  }
+}
+
+
+#rolling-ball {
+  
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 327px;
+  animation: rolling 5s ease-in-out infinite;
+}
+
+#rolling-ball:hover {
+  width: 40px;
+  height: 40px;
+  top: 317px;
 }
